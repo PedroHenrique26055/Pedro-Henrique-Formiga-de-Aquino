@@ -97,3 +97,48 @@
 .btn:hover {
     opacity: 1;
 }
+
+#key-benefits h2 {
+    background-color: var(--secondary);
+    text-align: center;
+    padding: 2em;
+    font-weight: 500;
+}
+
+.benefits {
+    display: flex;
+    justify-content: space-around;
+    padding: 4em;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.benefit {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 20%;
+    color: var(--text-tertiary);
+}
+
+.benefit .benefit-img {
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    background-size: cover;
+    background-position: center;
+    margin-bottom: 1em;
+}
+
+#benefit-1 {
+    background-image: url(../img/python_logo.jpg);
+}
+
+#benefit-2 {
+    background-image: url(../img/django_logo.png);
+}
+
+#benefit-3 {
+    background-image: url(../img/clean_code_logo.png);
+}
