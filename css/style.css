@@ -14,7 +14,7 @@
 }
 
 #event-description {
-    background: linear-gradient(rgba(0, 0, 0, .8), rgba(0, 0, 0, 0.8)), url(../img/fundo_python.png);
+    background: linear-gradient(rgba(0, 0, 0, .8), rgba(0, 0, 0, 0.8)),  url(../img/fundo_python.png);
     background-position: center;
     background-size: cover;
     height: 85vh;
@@ -57,7 +57,7 @@
     max-width: 22%;
 }
 
-#subscription-form p {
+#subscription-form p{
     font-size: 1.5em;
     color: var(--text-secondary);
     margin-bottom: 1em;
@@ -145,7 +145,7 @@
 
 #location {
     height: 400px;
-    background: linear-gradient(rgba(0, 0, 0, .8), rgba(0, 0, 0, 0.8)), url(../img/fundo_python.png);
+    background: linear-gradient(rgba(0, 0, 0, .8), rgba(0, 0, 0, 0.8)),  url(../img/fundo_python.png);
     background-position: center;
     background-size: cover;
     display: flex;
@@ -155,7 +155,7 @@
     margin-bottom: 3em;
 }
 
-#adress,
+#adress, 
 #about-location {
     max-width: 30%;
 }
@@ -164,7 +164,7 @@
     display: flex;
 }
 
-#adress i {
+#adress i{
     color: var(--primary);
     font-size: 4em;
     margin-right: 0.5em;
@@ -182,7 +182,7 @@
     text-transform: uppercase;
 }
 
-#about-location p {
+#about-location p{
     line-height: 1.5em;
 }
 
