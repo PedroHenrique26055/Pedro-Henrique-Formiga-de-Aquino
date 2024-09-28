@@ -142,3 +142,46 @@
 #benefit-3 {
     background-image: url(../img/clean_code_logo.png);
 }
+
+#location {
+    height: 400px;
+    background: linear-gradient(rgba(0, 0, 0, .8), rgba(0, 0, 0, 0.8)),  url(../img/fundo_python.png);
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    color: var(--text-color);
+    margin-bottom: 3em;
+}
+
+#adress, 
+#about-location {
+    max-width: 30%;
+}
+
+#adress {
+    display: flex;
+}
+
+#adress i{
+    color: var(--primary);
+    font-size: 4em;
+    margin-right: 0.5em;
+}
+
+#adress-details {
+    text-align: center;
+    font-size: 1.3em;
+}
+
+#about-location h3 {
+    color: var(--primary);
+    font-size: 2.5em;
+    margin-bottom: 1em;
+    text-transform: uppercase;
+}
+
+#about-location p{
+    line-height: 1.5em;
+}
